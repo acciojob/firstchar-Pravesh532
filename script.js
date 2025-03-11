@@ -1,5 +1,10 @@
 function firstChar(text) {
-  // your code here
+	 let a = text.trim();
+	if(a.length===0){ 
+		
+		return `''`
+	}
+  return a[0];
 }
 
 // Do not change the code below
